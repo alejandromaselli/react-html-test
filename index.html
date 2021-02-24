@@ -11,27 +11,12 @@
     <p>Parrafo</p>
     <div id="root"></div>
 </body>
+
 <script crossorigin src="https://unpkg.com/react@17/umd/react.development.js"></script>
 <script crossorigin src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
 <script crossorigin src="https://unpkg.com/babel-standalone@6.26.0/babel.min.js"></script>
-<script type="text/babel">
-    const textillo = "soy un texto";
-    const rootEl = document.getElementById("root")
-    const spanElement = React.createElement('span', {}, 'SPAN!')
-    // const element = React.createElement('h1', { id: 'header' }, 'Hey There!', spanElement)
 
-    const element = <h1 id="header">Hola</h1>
-
-    class ElementoFunction extends React.Component {
-        constructor(props) {
-            super(props)
-        }
-        render() {
-            return <h1>{textillo}</h1>
-        }
-    }
-
-    ReactDOM.render(<ElementoFunction />, rootEl)
+<script type="text/javascript" src="WelcomeBack.js"></script>
 </script>
 
 </html>
