@@ -1,0 +1,23 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "WelcomeBack.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alejandromaselli/react-html-test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alejandromaselli/react-html-test/issues"
+  },
+  "homepage": "https://github.com/alejandromaselli/react-html-test#readme",
+  "dependencies": {
+    "rect": "^1.2.1"
+  }
+}
